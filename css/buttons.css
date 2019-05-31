@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+
+.go {
+		width: 100px;
+		height: auto;
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #AAA;
+}
+
+.save li:hover {
+		opacity: 0.4;
+}
+
+.update {
+		width: 100px;
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #7AD175;
+}
+
+.clearAll {
+		width: 100px;
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #FC9A9A;
+}
+
+.submit {
+		min-width: 100px;
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #AAA;
+}
+
+.upload {
+		width: 100px;
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #AAA;
+}
+
+.printBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #AAA;
+}
+
+.saveBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #98D991;
+}
+
+.editBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #EDDA47;
+}
+
+.calcBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #75D1D1;
+}
+
+.husslBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #DBB979;
+}
+
+.delBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #FC9A9A;
+}
+
+.hideBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #3F9646;
+}
+
+.showBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #CCC;
+}
+.titleBtn {
+        padding: 2px;
+        background-color: #FFF;
+        border: 2px solid #CCC;
+}
+
+.delEntryBtn {
+		padding: 2px;
+		background-color: #F70000;
+		border: 2px solid #DE0000;
+		color: #FFF;
+}
+
+.cancelBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #FCA9C1;
+}
+
+.saveSmallBtn {
+		padding: 2px;
+		background-color: #FFF;
+		border: 2px solid #AAA;
+}
+
+button:hover {
+		cursor: pointer;
+		cursor: hand;
+}
+
+input[type=submit] {
+		cursor: pointer;
+		cursor: hand;
+}
+
+input[type=button] {
+		cursor: pointer;
+		cursor: hand;
+}
+
+.recordCycleBtn {
+		padding-bottom: 10px;
+		background-color: #FFF;
+		border: 2px solid #AAA;
+		width: 30px;
+		height: 30px;
+		font-size: 20px;
+		color: #AAA;
+}
+
+.recordCycleBtn:hover {
+		border: 2px solid #828282;
+		color: #828282;
+}
+
+.recordCycleBtnDisabled {
+		padding-bottom: 10px;
+		background-color: #FFF;
+		border: 2px solid #DDD;
+		width: 30px;
+		height: 30px;
+		font-size: 20px;
+		color: #DDD;
+}
+
+#searchBtn {
+		cursor: pointer;
+		cursor: hand;
+		background: none;
+		border: none;
+		font-size: 16px;
+		color: #3F3F3F;
+		margin-right: 5px;
+}

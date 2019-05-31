@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+#allRecords td,tr {
+		text-align: center;
+}
+
+#allRecords a {
+		text-decoration: none;
+		color: #000;
+		}

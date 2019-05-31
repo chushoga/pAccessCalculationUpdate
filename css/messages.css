@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+
+
+.error {
+	background-color: #f2dede;
+	color: #ad4442;
+    width: 40%;
+    min-height: 20px;
+    padding: 2px;
+    font-size: 14px;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+    line-height: 20px;
+    text-align: center;
+	outline: 1px solid #ad4442;
+		}
+		
+.success {
+    background-color: #dff0d8;
+    color: #64814b;
+    width: 40%;
+    min-height: 20px;
+    padding: 2px;
+    font-size: 14px;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    z-index: 2000;
+    display: none;
+    line-height: 20px;
+    text-align: center;
+    outline: 1px solid #64814b;
+    }
+
+
+.warning {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+    width: 40%;
+    min-height: 20px;
+    padding: 2px;
+    font-size: 14px;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+    line-height: 20px;
+    text-align: center;
+    outline: 1px solid #8a6d3b;
+        }
+
+
+.info {
+    background-color: #d9edf7;
+    color: #31708f;
+    width: 40%;
+    min-height: 20px;
+    padding: 2px;
+    font-size: 14px;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+    line-height: 20px;
+    text-align: center;
+    outline: 1px solid #31708f;
+      }
+
+.required {		
+		color: #F23535;
+		display: none;
+		}
+		
+.attention {
+		color: #ED3939;
+		font-size: 12px;
+}
+
+.loadingWrapper {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.loadingBack {
+    background: #000;
+    opacity: 0.4;
+    color: #FFF;
+    position: absolute;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.loadingText {
+    color: #FFF;
+    position: absolute;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.loadingWrapper2 {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.loadingBack2 {
+    background: #000;
+    opacity: 0.4;
+    color: #FFF;
+    position: absolute;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.loadingText2 {
+    color: #FFF;
+    position: absolute;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,21 @@
+<h1>MACRO HELP</h1>
+
+<br> 1. FileMakerからEXCEL(*.xls)
+<br> 2. Excelで開く
+<br> 3. sheet名右クリックしてコードを表示するクリック
+<br> 4. VBAコード貼り付け、[ <span style='color: green; font-weight: 700;'>▶ </span>] ボタン押す
+<br> 5. 名前付けて保存（*.csv）
+<br> 6. メモで開いて名前付けて保存（UTF-8, すべてのプログラム）
+<br> 7. アプロード
+<br> EXCEL (VSB) - Sub orderFix()
+<br> Range("C:C, E:E, I:I, J:J, L:L, M:M, N:N, O:O").Select
+<br> Selection.Delete Shift:=xlToLeft
+<br> Rows(1).Select
+<br> Selection.Delete Shift:=xlUp
+<br> Range("A:A").Replace "1", "0"
+<br> Range("A:A").NumberFormat = "General"
+<br> Range("B:B").NumberFormat = "0.00"
+<br> Range("F:F").NumberFormat = "YYYY.MM.DD"
+<br> Range("G:G").NumberFormat = "General"
+<br> End Sub
+<br>

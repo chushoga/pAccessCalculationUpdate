@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+* {
+		margin: 0px;
+		padding: 0px;
+}
+
+body {
+		font-family: "メイリオ","ＭＳ Pゴシック",sans-serif;
+		font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+a {
+	color: #000;
+}
+a:hover {
+		color: #8F8F8F;
+		text-decoration: underline;
+		}
+		
+.clear{
+		clear: both;
+}
+
+.contents {
+		margin-top: 20px;
+		}
+.tfProjectContents {
+        margin-top: 60px !important;
+        }
+
+.loadingGif {
+		display: none;
+		}
+		#loadingGif {
+        display: none;
+        }
+        
+#loading {
+  position: fixed;
+  z-index: 9000;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+}
+
+.loadingGifMain {
+    background-color: #FFF;
+    width: 150px;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -75px;
+    margin-top: -10px;
+    text-align: center;
+}

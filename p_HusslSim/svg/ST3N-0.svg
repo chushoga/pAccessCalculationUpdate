@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="&#x30EC;&#x30A4;&#x30E4;&#x30FC;_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+	 height="100%" viewBox="0 0 59.883 47.891" style="enable-background:new 0 0 59.883 47.891;" xml:space="preserve">
+	 <?php echo $pattern;?>
+<g>
+	<path style="fill:url(#frame); <?php echo $stroke;?>" d="M0.547,22.017L0,47.234l1.158,0.025l0.484-22.376l23.012,0.432
+		c0.619,5.595,1.879,12.609,3.684,22.575l1.139-0.207c-2.646-14.607-4.105-22.844-4.102-29.416
+		c0.002-6.045,1.213-10.724,3.91-17.857L28.203,0c-2.715,7.17-3.988,12.056-3.986,18.268c0,1.291,0.055,2.634,0.16,4.068
+		L0.547,22.017z"/>
+	<path style="fill:url(#frame); <?php echo $stroke;?>" d="M59.883,14.559V0c0,0-9.191,0.334-12.256,0.334S35.371,0,35.371,0V47.89h1.895V15.933h20.723V47.89
+		h1.895V14.559z"/>
+	<g>
+		<polygon style="fill:url(#frame); <?php echo $stroke;?>" points="37.879,22.813 37.877,22.813 37.877,47.89 39.66,47.89 39.66,25.136 55.592,25.136 
+			55.592,47.89 57.375,47.89 57.375,25.136 57.377,25.136 57.377,22.016 37.879,22.016 		"/>
+	</g>
+</g>
+</svg>

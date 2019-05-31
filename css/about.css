@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+#about {
+	width: 300px;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+	}
+#about h1{
+		font-size: 20px;
+		}
+#pAccesslogo {
+	width: 64px;
+	height: 64px;
+	font-size: 26px;
+	text-align: center;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#pAccessLogoTL{
+		width: 46px;
+		height: 46px;
+		float: left;
+		background: #FF7AC1;
+		border-top: 2px solid #383838;
+		border-right: 1px solid #383838;
+		border-bottom: 1px solid #383838;
+		border-left: 2px solid #383838;
+		opacity: 0.7;
+}
+#pAccessLogoTR{
+        width: 46px;
+        height: 46px;
+        float: left;
+        background: #D37AFF;
+        border-top: 2px solid #383838;
+        border-right: 2px solid #383838;
+        border-bottom: 1px solid #383838;
+        border-left: 1px solid #383838;
+        opacity: 0.7;
+}
+#pAccessLogoBL{
+        width: 46px;
+        height: 46px;
+        float: left;
+        background: #7AFFB8;
+        border-top: 1px solid #383838;
+        border-right: 1px solid #383838;
+        border-bottom: 2px solid #383838;
+        border-left: 2px solid #383838;
+        opacity: 0.7;
+}
+#pAccessLogoBR{
+        width: 46px;
+        height: 46px;
+        float: left;
+        background: #F8FF7A;
+        border-top: 1px solid #383838;
+        border-right: 2px solid #383838;
+        border-bottom: 2px solid #383838;
+        border-left: 1px solid #383838;
+        opacity: 0.7;
+}
+#pAccessLogo_Glow {
+		width: 40px;
+		height: 15px;
+		margin-top: 2px;
+		margin-left: 2px;
+		background-color: #FFF;
+		opacity: 0.3;
+}
+

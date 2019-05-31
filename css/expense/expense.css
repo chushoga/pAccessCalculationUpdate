@@ -1,0 +1,248 @@
+@CHARSET "UTF-8";
+
+.sheetWrapper {
+        width: 650px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        position: relative
+}
+
+.sheetWrapper input[type=text] {
+        background-color: #FFF;
+        width: 100px;
+        border-bottom: solid 2px #CCC;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+}
+
+.sheetWrapper textarea {
+        width: 300px;
+        height: 60px;
+        margin-left: 15px;
+}
+.tax{
+        width: 100%;
+        height: 30px;
+        background-color: #FFF;
+        
+}
+.tax input[type=text]{
+    background-color: #D7EDD3;
+    width: 30px;
+    height: 25px;
+}
+
+.sheetTop {
+        width: 100%;
+        background-color: #FFF;
+        border-right: 1px solid #CCC;
+}
+
+.sheetBottom {
+        width: 100%;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        border-right: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+}
+
+.sheetTopBox1Wrapper {
+        width: 25%;
+        height: auto;
+        background-color: #FFF;
+        float: left; //
+        border-left: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+}
+
+.sheetTopBox1Top {
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        border-top: 1px solid #CCC;
+}
+
+.sheetTopBox1Bottom {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+}
+
+.sheetTopBox2 {
+        width: 100%;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        border-right: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        background-color: #FFF;
+}
+
+.sheetTable1 {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-collapse: collapse;
+}
+
+.sheetTable1 td {
+        border: 1px solid #CCC;
+        padding-top: 2px;
+        padding-bottom: 2px;
+}
+
+.sheetTable1 th {
+        border-right: 1px solid #CCC;
+}
+
+.sheetTable2 {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-collapse: collapse;
+}
+
+.sheetTable2 td {
+        border-bottom: 1px solid #CCC;
+        padding-top: 2px;
+        padding-bottom: 2px;
+}
+
+.sheetTopTotal {
+        height: 80px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.sheetTopTotal p {
+        text-align: right;
+}
+
+.sheetBottomTotal {
+        height: 40px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.sheetBottomTotal p {
+        text-align: right;
+}
+
+.editBar {
+    width: 652px; 
+    height: auto; 
+    //border: 1px solid #CCC; 
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-top: 30px;
+    
+}
+
+
+.orderContents { 
+        margin-top: 60px;
+}
+
+.sheetTopBox1dateWrapper {
+        width: 141px;
+        height: auto;
+        background-color: #FFF;
+        float: left; //
+        border-left: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+}
+
+.sheetTopBox1dateTop {
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        border-top: 1px solid #CCC;
+}
+
+.sheetTopBox1dateBottom {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        white-space:nowrap;
+}
+.sheetTopBox1forwarderWrapper {
+        width: 127px;
+        height: auto;
+        background-color: #FFF;
+        float: left; //
+        border-left: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+}
+
+.sheetTopBox1forwarderTop {
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        border-top: 1px solid #CCC;
+}
+
+.sheetTopBox1forwarderBottom {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        white-space:nowrap;
+}
+.sheetTopBox1VesPackWrapper {
+        width: 191px;
+        height: auto;
+        background-color: #FFF;
+        float: left; //
+        border-left: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+}
+
+.sheetTopBox1VesPackTop {
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        border-top: 1px solid #CCC;
+}
+
+.sheetTopBox1VesPackBottom {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        background-color: #FFF;
+        border-left: 1px solid #CCC;
+        white-space:nowrap;
+}

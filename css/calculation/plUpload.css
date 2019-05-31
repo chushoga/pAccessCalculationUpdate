@@ -1,0 +1,139 @@
+@CHARSET "UTF-8";
+.importMakerPL {
+		width: 400px;
+		height: 200px; 
+		position: fixed;
+		top: 20px;
+		left: calc(50% - 200px);
+		z-index: 4000;		
+        background-color: #FFF;
+        outline: 2px solid #F2F2F2;
+        display: none;
+		}
+.importFileMaker {
+        width: 400px;
+        height: 200px; 
+        position: fixed;
+        top: 20px;
+        left: calc(50% - 200px);
+        z-index: 4000;      
+        background-color: #FFF;
+        outline: 2px solid #F2F2F2;
+        display: none;
+        }
+.showGeneralHistoryBox {
+	width: 650px;
+	height: auto; 
+	position: fixed;
+	top: 20px;
+	left: calc(50% - 325px);
+	z-index: 4000;      
+	background-color: #FFF;
+	outline: 2px solid #F2F2F2;
+	display: none;
+}
+.uploadForm {
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+    
+.closeUpload{ 
+		float:right; 
+		width: 40px; 
+		height: 20px; 
+		background-color: #FC9A9A; 
+		color: white; 
+		margin-right: 10px;
+		font-size: 14px;
+		line-height: 20px;
+}
+.closeUpload:hover {
+		cursor: pointer;
+}
+
+.closeFMUpload{ 
+        float:right; 
+        width: 40px; 
+        height: 20px; 
+        background-color: #FC9A9A; 
+        color: white; 
+        margin-right: 10px;
+        font-size: 14px;
+        line-height: 20px;
+}
+.closeFMUpload:hover {
+        cursor: pointer;
+}
+.generalHistoryForm {
+    width: 650px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+.closeGeneralHistory{ 
+        float:right; 
+        width: 40px; 
+        height: 20px; 
+        background-color: #FC9A9A; 
+        color: white; 
+        margin-right: 10px;
+        font-size: 14px;
+        line-height: 20px;
+}
+.closeGeneralHistory:hover {
+        cursor: pointer;
+}
+
+#genHistTable {
+		border-collapse: collapse;
+		width: 100%;
+		}
+
+#genHistTable td {
+    text-align: left;
+    padding: 2px;    
+    }
+#genHistTable th {
+    background-color: #CCC;    
+    padding: 2px;
+    }
+#genHistTable tr:hover {
+    background-color: #B3D6E8;
+    }
+
+
+.showListNameBox {
+    width: 650px;
+    height: auto; 
+    position: fixed;
+    top: 20px;
+    left: calc(50% - 325px);
+    z-index: 4000;      
+    background-color: #FFF;
+    outline: 2px solid #F2F2F2;
+    display: none;
+}
+.saveListNameForm {
+    width: 650px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+.closeSaveListName{ 
+        float:right; 
+        width: 40px; 
+        height: 20px; 
+        background-color: #FC9A9A; 
+        color: white; 
+        margin-right: 10px;
+        font-size: 14px;
+        line-height: 20px;
+}
+.closeSaveListName:hover {
+        cursor: pointer;
+}

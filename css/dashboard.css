@@ -1,0 +1,309 @@
+/* ------------------------ */
+/* GENERAL */
+/* ------------------------ */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+/* ------------------------ */
+/* UPDATE (right side) */
+/* ------------------------ */
+
+#updateContainer {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0px;
+	width: 100%;
+	opacity: 0.95;
+	background: #201e1f;
+}
+
+#updateContainerTop {
+	width: 100%;
+	height: 65%;
+	overflow: auto;
+}
+
+#updateContainerBottom {
+	width: 100%;
+	height: 35%;
+	overflow: auto;
+}
+
+/* ------------------------ */
+/* CSV PREVIEW */
+/* ------------------------ */
+
+#csvPreviewContainer {
+	width: calc(100% - 20px);
+	height: calc(100% - 70px);
+	overflow: auto;
+	padding: 10px;
+	color: #FFF;
+}
+
+#csvPreviewContainer table {
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 16px;
+}
+
+#csvPreviewContainer tr:nth-child(2n+2) {
+	background: #383436;
+}
+
+#csvPreviewContainer th {
+	font-weight: normal;
+	border: 1px solid #FFF;
+	padding: 5px;
+	white-space: nowrap;
+}
+
+#csvPreviewContainer td {
+	white-space: nowrap;
+	padding: 3px;
+	border: 1px solid #FFFFFF;
+}
+
+.btnCSVPreviewCancel {
+	width: 100px;
+	float: left;
+	background-color: #888;
+	color: #CCC;
+	font-size: 16px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.btnCSVPreviewCancel:hover {
+	background-color: #b31e1e;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.btnCSVPreviewOk {
+	width: 100px;
+	float: left;
+	background-color: #888;
+	color: #CCC;
+	font-size: 16px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.btnCSVPreviewOk:hover {
+	background-color: #00801e;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#csvTitleTop {
+	font-size: 16px;
+	line-height: 45px;
+	margin-left: 10px;
+	float: left;
+	color: #FFF;
+}
+
+.csvTitleTopInfo{
+	float: left;
+	color: #FFFFFF;
+	height: 45px;
+	min-width: 0px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 45px;
+	text-align: left;
+}
+/* ------------------------ */
+/* Download Area Containers */
+/* ------------------------ */
+
+.downloadAreaContainer  {
+	width: calc(100% - 10px);
+	height: 150px;
+	padding: 5px;
+}
+
+.downloadAreaContainer h1 {
+	color: #FFF;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.downloadAreaContainerUpper {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.chooseFileBtn {
+	height: 45px;
+	width: 45px;
+	background-color: #2d7d9a;
+	color: #DFDFE0;
+	float: left;
+	font-size: 32px;
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.downloadAreaContainerLower {
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.viewTable {
+	width: 100%;
+	overflow: auto;
+}
+
+.viewTable table {
+	border-collapse: collapse;
+	font-size: 11px;
+	text-align: center;
+	color: #FFF;
+}
+
+.viewTable tr{
+	background: #383436;
+	font-weight: normal;
+}
+
+.viewTable th {
+	white-space: nowrap;
+	padding: 3px;
+	border: 1px solid #FFFFFF;
+}
+
+.viewTable td {
+	white-space: nowrap;
+	padding: 3px;
+	border: 1px solid #FFFFFF;
+}
+
+.downloadMacro {
+	height: 45px;
+	width: 45px;
+	background-color: #CCC;
+	float: left;
+	font-size: 32px;
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+	vertical-align: bottom;
+	color: #2d7d9a;
+	margin-left: 5px;
+}
+
+
+/* ------------------------ */
+/* NOTY popup message */
+/* ------------------------ */
+
+.notySpecialIconBox {
+	width: 25px;
+	background-color: #d92626;
+	color: #f1b2b2;
+	padding-top: 5px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+}
+.notySpecialMessageBox {
+	background-color: #ec9393;
+	margin-left: 25px;
+	font-family: 'Droid Sans', sans-serif;
+}
+.notySpecialErrorTitle {
+	padding: 5px 10px 5px 10px;
+	font-size: 16px;
+}
+.notySpecialErrorMessage {
+	background-color: #f1b2b2;
+	padding: 5px 10px 5px 10px;
+	font-size: 11px;
+}
+
+/* ------------------------ */
+/* UPDATE BOX */
+/* ------------------------ */
+/*
+#updateBoxContainer {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 300px;
+	width: calc(100% - 300px);
+}
+
+.updateBox {
+	width: 600px;
+	margin: 10px;
+	padding: 20px;
+	font-size: 16px;
+	background: #000000;
+	color: #FFFFFF;
+	opacity: 0.50;
+}
+.updateBox button {
+	height: 45px;
+	width: 45px;
+	font-size: 24px;
+	text-align: center;
+	border: 0px;
+}
+.updateBox button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+.csvMacro {
+	background-color: #828282;
+}
+
+*/
+
+/* ------------------------ */
+/* dialog box */
+/* ------------------------ */
+/*
+#dialogCheckUploadTable {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+#dialogCheckUploadTable th td {
+	padding: 5px;
+	font-size: 24px;
+	border: 1px solid;
+}
+
+#dialogCheckUploadTable th {
+	font-weight: 700;
+	background-color: #CCCCCC;
+}
+*/
